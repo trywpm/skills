@@ -289,7 +289,7 @@ wpm publish --access public
 
 Refer to the full schema documentation:
 
-* [wpm.json schema reference](references/schema.md)
+* [wpm.json schema reference](./reference/schema.md)
 
 Key recommendations:
 
