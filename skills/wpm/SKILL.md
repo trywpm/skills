@@ -90,13 +90,31 @@ Example:
 wpm --version
 ```
 
-### Install wpm (if missing)
+If not installed, follow the instructions below.
+
+### Install wpm
+
+#### Unix (Linux / macOS)
 
 ```bash
-./scripts/install.sh
+curl -fsSL https://wpm.so/install | bash
 ```
 
-If installation fails, inspect the script output and ensure required permissions.
+#### Windows (PowerShell)
+
+Run in **PowerShell**:
+
+```powershell
+irm wpm.so/install.ps1 | iex
+```
+
+### Verify installation
+
+```bash
+wpm --version
+```
+
+If installation fails, inspect the output and ensure you have the required permissions and that curl (Unix) or PowerShell (Windows) is available. On Windows, you may need to restart your terminal (open a new PowerShell session) for the `PATH` changes to take effect.
 
 ---
 
