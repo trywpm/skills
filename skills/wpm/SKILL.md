@@ -220,12 +220,6 @@ Recommended safe workflow:
 2. Based on the output, re-install specific versions explicitly (do not use version ranges or operators).
 3. Verify the site still works
 4. Commit updated `wpm.json` + `wpm.lock`
-
-Example:
-
-```bash
-wpm install wordpress-seo@26.9.0
-```
 ---
 
 ### 7) Remove a Package
